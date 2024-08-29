@@ -23,11 +23,11 @@ Recall the definition of $O$:
 $f(n)\in O(g(n))$ if there are positive constants $b$ and $n_0$ such that $f(n) ≤ b g (n)$
 for all $n ≥ n_0$.
 
-\underline{Claim:}
+Claim:
 If $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
 
 
-\underline{Proof:}
+Proof:
 Assume $f(n)\in o(g(n))$.
 By definiton, if $f(n)\in o(g(n))$ then there is a $c>0$ and an $n_0$ such that for all $n\ge n_0$, $ f(n) < c g(n)$. 
 If $f(n) < c g(n)$ this implies $f(n) \le c g(n)$ because $<$ is stronger then $\le$. Hence, with $c$ and $n_0$, $f(n) ≤ c g (n)$ meaning $f(n)\in O(g(n))$. So  $f(n)\in o(g(n))$ implies
