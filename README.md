@@ -29,7 +29,7 @@ If $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
 
 Proof:
 Assume $f(n)\in o(g(n))$.
-By definiton, if $f(n)\in o(g(n))$ then there is a $c>0$ and an $n_0$ such that for all $n\ge n_0$, $ f(n) < c g(n)$. 
+By definiton, if $f(n)\in o(g(n))$ then there is a $c>0$ and an $n_0$ such that for all $n\ge n_0$, $f(n) < c g(n)$. 
 If $f(n) < c g(n)$ this implies $f(n) \le c g(n)$ because $<$ is stronger then $\le$. Hence, with $c$ and $n_0$, $f(n) ≤ c g (n)$ meaning $f(n)\in O(g(n))$. So  $f(n)\in o(g(n))$ implies
 that $f(n)\in O(g(n))$.
 
